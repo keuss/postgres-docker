@@ -17,9 +17,9 @@ Run
  
 Test with pgAdmin4
 
- - http://localhost:8080/ (guillaume.gallois@gmail.com / secret). Must create a server first and connection with hostname `db` (service in yml)
+ - http://localhost:8080/ (guillaume.gallois@gmail.com / secret). Must create a server first and connection with hostname `db` (see services in yml)
  
 
 Links
 
- - https://linuxhint.com/postgresql_docker/ and [here](https://phoenixnap.com/kb/deploy-postgresql-on-docker#:~:text=Option%201%3A%20Run%20Postgres%20Using%20Docker%20Compose,-To%20deploy%20a&text=You%20can%20decide%20on%20the,default%20port%20number%20for%20PostgreSQL.)
+ - https://linuxhint.com/postgresql_docker/ and [here](https://phoenixnap.com/kb/deploy-postgresql-on-docker)
