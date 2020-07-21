@@ -22,3 +22,4 @@ Test with pgAdmin4
 Links
 
  - https://linuxhint.com/postgresql_docker/ and [here](https://phoenixnap.com/kb/deploy-postgresql-on-docker) or [here](https://github.com/khezen/compose-postgres/blob/master/docker-compose.yml)
+ - [Install docker on CentOS 8](https://github.com/keuss/docker-on-centos8)
