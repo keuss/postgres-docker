@@ -1,0 +1,30 @@
+version: "3"
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_container
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    volumes:
+        - dbdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin_container
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: guillaume.gallois@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: secret
+    volumes:
+       - pgadmindata:/var/lib/pgadmin
+    ports:
+      - 8080:80
+
+volumes:
+    dbdata:
+    pgadmindata:
