@@ -14,6 +14,7 @@ Run
  - Logs `docker-compose logs -f`
  - Stop with `docker-compose up`
  - Remove volumes (to chage configuration, ...) `docker volume rm 01-postgres_pgadmindata 01-postgres_dbdata`
+ - list all containers : `docker container list -a`, all images : `docker image ls`
  
 Test with pgAdmin4
 
