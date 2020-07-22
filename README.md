@@ -14,6 +14,7 @@ PostgreSQL and Docker test with docker-compose and :
  - Logs `docker-compose logs -f`
  - Stop with `docker-compose down`
  - Remove volumes (to chage configuration, ...) `docker volume rm 01-postgres_pgadmindata 01-postgres_dbdata`
+ - Removes stopped service containers (force and Remove any anonymous volumes attached to containers) `docker-compose rm -vf` (-s Stop the containers, if required, before removing)
  - list all containers : `docker container list -a`, all images : `docker image ls`
  
 Test with pgAdmin4
