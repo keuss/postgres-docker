@@ -18,7 +18,7 @@ services:
     container_name: pgadmin_container
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: guillaume.gallois@gmail.com
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: secret
     volumes:
       - pgadmindata:/var/lib/pgadmin
