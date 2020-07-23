@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
     volumes:
-        - dbdata:/var/lib/postgresql/data
+      - dbdata:/var/lib/postgresql/data
     ports:
       - 5432:5432
 
@@ -21,7 +21,7 @@ services:
       PGADMIN_DEFAULT_EMAIL: guillaume.gallois@gmail.com
       PGADMIN_DEFAULT_PASSWORD: secret
     volumes:
-       - pgadmindata:/var/lib/pgadmin
+      - pgadmindata:/var/lib/pgadmin
     ports:
       - 8080:80
 
